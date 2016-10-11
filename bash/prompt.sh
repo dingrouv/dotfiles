@@ -12,9 +12,9 @@ function git_branch {
     git rev-parse --abbrev-ref HEAD 2>/dev/null | sed -e 's/\(..*\)/[\1]/'
 }
 
-PS1_SERVER="${GREEN}\h${CLEAR}"
+PS1_SERVER="${RED}\h${CLEAR}"
 PS1_GIT="${YELLOW}\$(git_branch)${CLEAR}"
-PS1_PATH="${BLUE}\w${CLEAR}"
+PS1_PATH="${GREEN}\w${CLEAR}"
 PS1_PROMPT="${BLUE}>${CLEAR}"
 PS1="\n${PS1_SERVER}:${PS1_PATH} ${PS1_GIT}\n${PS1_PROMPT} "
 
