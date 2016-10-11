@@ -25,8 +25,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tomasr/molokai'
 
 call vundle#end()
-filetype plugin indent on
-
 
 " Set colorscheme
 colorscheme molokai
@@ -62,9 +60,8 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
-" Smart indent
+" indent
 set autoindent
-set smartindent
 filetype plugin on
 filetype indent on
 
