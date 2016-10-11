@@ -11,6 +11,9 @@ set backspace=indent,eol,start
 " Turn on syntax highlighting
 syntax on
 
+" Set hidden
+set hidden
+
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
