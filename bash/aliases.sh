@@ -1,8 +1,15 @@
+PLATFORM=`uname`
+
+if [[ "$PLATFORM" == "Darwin" ]]; then
+  alias ls='ls -Gh'
+elif [[ "$PLATFORM" == "Linux" ]]; then
+  alias ls='ls --color=auto -h'
+fi
+
 alias h=history
 alias ll="ls -al"
 alias ...='cd ..'
 alias more='less'
-alias ls='ls -G'
 alias la='ls -al'
 alias lsd='ls -d */' # List only subdirectories
 alias sls='screen -ls'
