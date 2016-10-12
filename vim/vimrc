@@ -25,7 +25,9 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
-Plugin 'tomasr/molokai'
+" Use fork of molokai due to a syntastic color issue
+"Plugin 'tomasr/molokai'
+Plugin 'dingrouv/molokai'
 
 call vundle#end()
 
