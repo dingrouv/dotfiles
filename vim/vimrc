@@ -23,7 +23,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tomtom/tcomment_vim'
-Plugin 'scrooloose/syntastic'
+Plugin 'w0rp/ale'
 " Use fork of molokai due to a syntastic color issue
 "Plugin 'tomasr/molokai'
 Plugin 'dingrouv/molokai'
