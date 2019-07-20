@@ -16,5 +16,5 @@ mkdir ~/.vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Install Vim Plugins
-vim +PluginInstall +qall
+vim +PlugInstall +qall
 
