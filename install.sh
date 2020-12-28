@@ -19,6 +19,7 @@ vim +PlugInstall +qall
 # Note: requires Node.js to be installed
 vim "+CocInstall -sync coc-css" +qall
 vim "+CocInstall -sync coc-go" +qall
+vim "+CocInstall -sync coc-html" +qall
 vim "+CocInstall -sync coc-json" +qall
 vim "+CocInstall -sync coc-pyright" +qall
 vim "+CocInstall -sync coc-sh" +qall
