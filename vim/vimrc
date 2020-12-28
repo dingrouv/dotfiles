@@ -30,6 +30,11 @@ Plug 'vim-airline/vim-airline'
 Plug 'tomtom/tcomment_vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tomasr/molokai'
+Plug 'leafOfTree/vim-svelte-plugin'
+Plug 'leafgarland/typescript-vim'
+Plug 'tpope/vim-haml'
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-sleuth'
 call plug#end()
 
 " Set colorscheme
