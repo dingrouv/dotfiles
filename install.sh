@@ -10,6 +10,7 @@ ln -s $DOTFILES/vim/dotvim ~/.vim
 ln -s $DOTFILES/vim/vimrc ~/.vimrc
 ln -s $DOTFILES/screen/screenrc ~/.screenrc
 ln -s $DOTFILES/tmux/tmux.conf ~/.tmux.conf
+ln -s $DOTFILES/git/gitconfig ~/.gitconfig
 
 # Install Vim Plugins
 vim +PlugInstall +qall

@@ -1,0 +1,13 @@
+[user]
+	email = 207148+dingrouv@users.noreply.github.com
+	name = Derek Ingrouville
+[core]
+	editor=vim
+[alias]
+	ad = add
+	br = branch
+	co = checkout
+	ri = rebase -i
+	sdiff = diff --staged
+[pull]
+	rebase = true
