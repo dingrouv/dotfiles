@@ -28,9 +28,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'tomtom/tcomment_vim'
-Plug 'w0rp/ale'
-" Use fork of molokai due to a syntastic color issue
-" Plug 'dingrouv/molokai'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tomasr/molokai'
 call plug#end()
 
